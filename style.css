@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 20px; 
+}
+
+.logo img {
+  width: 40px;
+  height: auto;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+.links a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.links a:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.links a:hover {
+  color: #2b2bb2;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto; 
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.username {
+  margin-top: 5px; 
+  font-weight: bold; 
+}
